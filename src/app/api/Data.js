@@ -1,4 +1,4 @@
-import agric from "../../../public/agric.svg";
+import agric from "../../../public/Agric.svg";
 import business from "../../../public/business.svg";
 import client from "../../../public/client.png";
 import diverse from "../../../public/diverse.png";
