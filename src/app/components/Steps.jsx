@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Vid from "../../../public/vid.png";
+import Vid from "../../../public/vid.svg";
 import Evaluate from "../../../public/evaluate.png";
 import Close from "../../../public/close.png";
 import Process from "../../../public/process.png";

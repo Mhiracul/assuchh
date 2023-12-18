@@ -40,9 +40,11 @@ const About = () => {
               }}
             >
               <div className="container mx-auto md:px-32 px-10">
-                <div className="flex flex-col md:items-start items-center gap-10">
+                <div className="flex flex-col md:items-start items-center gap-3">
                   <h2 className="font-normal text-3xl ">Find & Build</h2>
-                  <h2 className="text-3xl font-semibold">YOUR DREAM HOME</h2>
+                  <h2 className="text-3xl md:text-start text-center font-semibold">
+                    YOUR DREAM HOME
+                  </h2>
                   <button className="bg-[#C82C2F] px-10 py-3  font-medium rounded-md text-white font-Montserrat text-base  max-w-[250px]">
                     Browse Listings
                   </button>

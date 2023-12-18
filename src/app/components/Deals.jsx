@@ -10,6 +10,7 @@ import { Button } from "react-scroll";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import Link from "next/link";
 
 function Deals() {
   const CustomNextArrow = (props) => (
@@ -73,9 +74,9 @@ function Deals() {
             <Image
               src={deal.img}
               alt={deal.title}
-              className="w-[90%] h-[128px] object-cover"
+              className="w-[98%] h-[178px] object-cover"
             />
-            <div className="p-5 w-[90%] shadow-lg">
+            <div className="p-5 w-[98%] shadow-lg">
               <h3 className="font-Monserrat font-bold underline">
                 {deal.title}
               </h3>

@@ -16,26 +16,26 @@ function InfoSearch() {
         width: "100%",
       }}
     >
-      <div className="flex-row gap-5 justify-between content-center align-middle items-center w-[85%] mx-auto shadow-lg p-8 ">
-        <Link href="/" className="border-[#00000066] border-r-2 px-9">
+      <div className="flex flex-row gap-2 lg:text-sm md:text-xs justify-between content-center align-middle w-full items-center mx-auto bg-white shadow-lg p-6 ">
+        <Link href="/about" className="border-[#00000066] border-r-2 px-4">
           Real Estate
         </Link>
-        <Link href="/" className="border-[#00000066] border-r-2 px-9">
+        <Link href="/" className="border-[#00000066] border-r-2 px-4">
           Agriculture
         </Link>
-        <Link href="/" className="border-[#00000066] border-r-2 px-9">
+        <Link href="/" className="border-[#00000066] border-r-2 px-4">
           Trading
         </Link>
-        <Link href="/" className="border-[#00000066] border-r-2 px-9">
+        <Link href="/" className="border-[#00000066] border-r-2 px-4">
           Import
         </Link>
-        <Link href="/" className="border-[#00000066] border-r-2 px-9">
+        <Link href="/" className="border-[#00000066] border-r-2 px-4">
           Export
         </Link>
-        <Link href="/" className="border-[#00000066] border-r-2 px-9">
+        <Link href="/" className="border-[#00000066] border-r-2 px-4">
           Business
         </Link>
-        <Link href="/" className=" px-9">
+        <Link href="/" className=" px-4">
           Technology
         </Link>
         <Button className="bg-[#C82C2F] p-2">

@@ -60,13 +60,12 @@ function Navbar() {
                 </Link>
 
                 <div className="relative inline-block">
-                  <a
-                    href="/"
+                  <span
                     className="text-black font-Montserrat text-[12px] cursor-pointer"
                     onClick={handleDropdownToggle}
                   >
                     Categories
-                  </a>
+                  </span>
                   {dropdownOpen && (
                     <div className="absolute top-full left-0 mt-2 py-2 w-[150px] bg-[#C82C2F] rounded-md z-10">
                       <a
@@ -110,14 +109,13 @@ function Navbar() {
           Home
         </Link>
         <Link
-          href="/"
+          href="/about"
           className="text-black font-medium hover:text-[#C82C2F] font-Montserrat text-[12px]"
         >
           About Us
         </Link>
         <div className="relative inline-block">
           <span
-            href="/"
             className="text-black font-medium hover:text-[#C82C2F] font-Montserrat text-[12px] cursor-pointer"
             onClick={handleDropdownToggle}
           >
@@ -130,7 +128,7 @@ function Navbar() {
               </div>
               <div className="flex flex-col">
                 <a
-                  href="/category1"
+                  href="/about"
                   className=" px-4 py-2 text-white inline-flex items-center gap-1 font-Montserrat font-bold text-[10px]"
                   onClick={handleDropdownLinkClick}
                 >

@@ -9,7 +9,7 @@ const Agent = () => {
           <h1 className="md:text-3xl text-xl text-center font-medium">
             A Real Estate Agent You Can Trust
           </h1>
-          <p className="text-base text-center font-light">
+          <p className="md:text-base text-xs text-center font-light">
             We are trusted by many happy clients whom we helped achieve their
             dreams. <br />
             You can be the next.

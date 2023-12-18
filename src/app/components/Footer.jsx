@@ -19,101 +19,65 @@ function Footer() {
             className="text-base placeholder:text-white bg-transparent font-normal leading-normal tracking-tight w-[50%] focus:border-0 focus:outline-none focus:ring-0 font-Montserrat text-white"
             type="email"
           />
-          <Button className="bg-white px-4 py-2 text-[#00ADEF] text-[15px">
+          <Button className="bg-white px-4 py-2 text-[#00ADEF] text-sm">
             Send
           </Button>
         </div>
       </center>
       <div className="flex flex-col md:flex-row justify-between items-start mt-[40px] md:mt-[100px] w-[95%] md:w-[80%] mx-auto">
         <div className="flex flex-col">
-          <h3 className="text-black font-Montserrat font-bold text-[15px]">
+          <h3 className="text-black font-Montserrat font-bold text-sm">
             Useful links
           </h3>
           <div className="mt-4 flex flex-col gap-3 md:mt-10">
-            <Link
-              className="text-gray-500 font-Montserrat text-[15px]"
-              href="/"
-            >
+            <Link className="text-gray-500 font-Montserrat text-sm" href="/">
               Find Deals
             </Link>
-            <Link
-              className="text-gray-500 font-Montserrat text-[15px]"
-              href="/"
-            >
+            <Link className="text-gray-500 font-Montserrat text-sm" href="/">
               Find Property
             </Link>
-            <Link
-              className="text-gray-500 font-Montserrat text-[15px]"
-              href="/"
-            >
+            <Link className="text-gray-500 font-Montserrat text-sm" href="/">
               Sell Property
             </Link>
-            <Link
-              className="text-gray-500 font-Montserrat text-[15px]"
-              href="/"
-            >
+            <Link className="text-gray-500 font-Montserrat text-sm" href="/">
               Get Agent
             </Link>
-            <Link
-              className="text-gray-500 font-Montserrat text-[15px]"
-              href="/"
-            >
+            <Link className="text-gray-500 font-Montserrat text-sm" href="/">
               Listing Category
             </Link>
           </div>
         </div>
         <div className="flex flex-col mt-6 md:mt-0">
-          <h3 className="text-black font-Montserrat font-bold text-[15px]">
+          <h3 className="text-black font-Montserrat font-bold text-sm">
             About
           </h3>
           <div className="mt-4 flex flex-col gap-3 md:mt-10">
-            <Link
-              className="text-gray-500 font-Montserrat text-[15px]"
-              href="/"
-            >
+            <Link className="text-gray-500 font-Montserrat text-sm" href="/">
               About Us
             </Link>
-            <Link
-              className="text-gray-500 font-Montserrat text-[15px]"
-              href="/"
-            >
+            <Link className="text-gray-500 font-Montserrat text-sm" href="/">
               How It Works
             </Link>
-            <Link
-              className="text-gray-500 font-Montserrat text-[15px]"
-              href="/"
-            >
+            <Link className="text-gray-500 font-Montserrat text-sm" href="/">
               Contact Us
             </Link>
           </div>
         </div>
         <div className="flex flex-col mt-6 md:mt-0">
-          <h3 className="text-black font-Montserrat font-bold text-[15px]">
+          <h3 className="text-black font-Montserrat font-bold text-sm">
             Terms
           </h3>
           <div className="mt-4 flex flex-col gap-3 md:mt-10">
-            <Link
-              className="text-gray-500 font-Montserrat text-[15px]"
-              href="/"
-            >
+            <Link className="text-gray-500 font-Montserrat text-sm" href="/">
               Privacy Policy
             </Link>
-            <Link
-              className="text-gray-500 font-Montserrat text-[15px]"
-              href="/"
-            >
+            <Link className="text-gray-500 font-Montserrat text-sm" href="/">
               Terms and Conditions
             </Link>
-            <Link
-              className="text-gray-500 font-Montserrat text-[15px]"
-              href="/"
-            >
+            <Link className="text-gray-500 font-Montserrat text-sm" href="/">
               Copyright Policy
             </Link>
-            <Link
-              className="text-gray-500 font-Montserrat text-[15px]"
-              href="/"
-            >
+            <Link className="text-gray-500 font-Montserrat text-sm" href="/">
               Security
             </Link>
           </div>
@@ -121,10 +85,7 @@ function Footer() {
         <div className="flex flex-col mt-6 md:mt-0">
           <Image src={Logo} alt="logo" width={50} height={50} />
           <div className="mt-5 flex flex-col gap-3">
-            <Link
-              className="text-gray-500 font-Montserrat text-[15px]"
-              href="/"
-            >
+            <Link className="text-gray-500 font-Montserrat text-sm" href="/">
               40 Ezekiel Ovah Ogidan <br />
               Lekki Epe Expressway, Lagos, Nigeria <br />
               Email: info@assuchglobal.com <br />
@@ -154,7 +115,7 @@ function Footer() {
               </Link>
             </div>
           </div>
-          <p className="text-[#00000059] text-[15px] font-Montserrat pb-5">
+          <p className="text-[#00000059] text-sm font-Montserrat pb-5">
             Copyright 2023 Assuch Global. All Rights Reserved.{" "}
           </p>
         </center>

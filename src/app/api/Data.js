@@ -1,11 +1,11 @@
-import agric from "../../../public/agric.png";
-import business from "../../../public/business.png";
+import agric from "../../../public/agric.svg";
+import business from "../../../public/business.svg";
 import client from "../../../public/client.png";
 import diverse from "../../../public/diverse.png";
-import exportation from "../../../public/exportation.png";
+import exportation from "../../../public/export.svg";
 import importation from "../../../public/import.svg";
-import realestate from "../../../public/realestate.png";
-import trading from "../../../public/trading.png";
+import realestate from "../../../public/Real.svg";
+import trading from "../../../public/trade.svg";
 import proven from "../../../public/proven.png";
 import global from "../../../public/global.png";
 
@@ -16,7 +16,7 @@ export const deals = [
     title: "Real Estate",
     content:
       "Be the first to gain access to our newest real estate deals. Stop renting and start buying now...",
-    link: "/",
+    link: "/about",
   },
   {
     id: "deal-2",

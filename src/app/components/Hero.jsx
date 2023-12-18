@@ -16,7 +16,7 @@ const Hero = () => {
         className="relative bg-cover bg-center h-[80vh] md:h-[100vh] flex items-center w-full"
         style={{
           background:
-            "linear-gradient(99deg, rgba(115, 173, 254, 0.48) 43.16%, rgba(82, 110, 150, 0.00) 76.84%), url('/hero.png') lightgray",
+            "linear-gradient(99deg, rgba(115, 173, 254, 0.48) 43.16%, rgba(82, 110, 150, 0.00) 76.84%), url('/hero.svg') lightgray",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           width: "100%",

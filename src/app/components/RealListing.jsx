@@ -8,16 +8,17 @@ import List5 from "../../../public/list5.svg";
 import List6 from "../../../public/list6.svg";
 import List7 from "../../../public/list7.svg";
 import List8 from "../../../public/list8.svg";
+import Link from "next/link";
 
 const RealListing = () => {
   return (
     <div className="bg-[#DBF0F8]  h-full w-full">
       <div className="container mx-auto w-full  py-20 md:px-32 px-10">
         <div className="flex flex-col items-center gap-4">
-          <h1 className="text-3xl font-medium ">Recent Listings</h1>
-          <p className="text-base font-light text-center">
-            Check out our recent listings and make a choice of a lifetime.{" "}
-            <br /> Be the first to choose.
+          <h1 className="md:text-3xl text-xl font-medium ">Recent Listings</h1>
+          <p className="md:text-base max-w-md text-xs font-light text-center">
+            Check out our recent listings and make a choice of a lifetime. Be
+            the first to choose.
           </p>
         </div>
 
@@ -33,7 +34,7 @@ const RealListing = () => {
               <h5 className="text-[10px] font-bold">N50,000,000</h5>
               <p className="text-[10px] font-medium">648sqm /3 Bed/3 Bath</p>
               <button className="bg-[#C82C2F] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
-                Contact Agent
+                <Link href="https://wa.me/+2348035491849">Contact Agent</Link>
               </button>
             </div>
           </div>
@@ -49,7 +50,7 @@ const RealListing = () => {
               <h5 className="text-[10px] font-bold">N50,000,000</h5>
               <p className="text-[10px] font-medium">648sqm /3 Bed/3 Bath</p>
               <button className="bg-[#C82C2F] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
-                Contact Agent
+                <Link href="https://wa.me/+2348035491849">Contact Agent</Link>
               </button>
             </div>
           </div>
@@ -65,7 +66,7 @@ const RealListing = () => {
               <h5 className="text-[10px] font-bold">N50,000,000</h5>
               <p className="text-[10px] font-medium">648sqm /3 Bed/3 Bath</p>
               <button className="bg-[#C82C2F] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
-                Contact Agent
+                <Link href="https://wa.me/+2348035491849">Contact Agent</Link>
               </button>
             </div>
           </div>
@@ -81,7 +82,7 @@ const RealListing = () => {
               <h5 className="text-[10px] font-bold">N50,000,000</h5>
               <p className="text-[10px] font-medium">648sqm /3 Bed/3 Bath</p>
               <button className="bg-[#C82C2F] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
-                Contact Agent
+                <Link href="https://wa.me/+2348035491849">Contact Agent</Link>
               </button>
             </div>
           </div>
@@ -97,7 +98,7 @@ const RealListing = () => {
               <h5 className="text-[10px] font-bold">N50,000,000</h5>
               <p className="text-[10px] font-medium">648sqm /3 Bed/3 Bath</p>
               <button className="bg-[#C82C2F] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
-                Contact Agent
+                <Link href="https://wa.me/+2348035491849">Contact Agent</Link>
               </button>
             </div>
           </div>
@@ -113,7 +114,7 @@ const RealListing = () => {
               <h5 className="text-[10px] font-bold">N50,000,000</h5>
               <p className="text-[10px] font-medium">648sqm /3 Bed/3 Bath</p>
               <button className="bg-[#C82C2F] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
-                Contact Agent
+                <Link href="https://wa.me/+2348035491849">Contact Agent</Link>
               </button>
             </div>
           </div>
@@ -129,7 +130,7 @@ const RealListing = () => {
               <h5 className="text-[10px] font-bold">N50,000,000</h5>
               <p className="text-[10px] font-medium">648sqm /3 Bed/3 Bath</p>
               <button className="bg-[#C82C2F] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
-                Contact Agent
+                <Link href="https://wa.me/+2348035491849">Contact Agent</Link>
               </button>
             </div>
           </div>
@@ -145,7 +146,7 @@ const RealListing = () => {
               <h5 className="text-[10px] font-bold">N50,000,000</h5>
               <p className="text-[10px] font-medium">648sqm /3 Bed/3 Bath</p>
               <button className="bg-[#C82C2F] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
-                Contact Agent
+                <Link href="https://wa.me/+2348035491849">Contact Agent</Link>
               </button>
             </div>
           </div>

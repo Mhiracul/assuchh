@@ -24,10 +24,8 @@ export default function Home() {
     <div>
       <Navbar />
       {loading ? (
-        // Render loader while content is loading
         <Loader />
       ) : (
-        // Render the actual content when loading is complete
         <>
           <Hero />
           <InfoSearch />

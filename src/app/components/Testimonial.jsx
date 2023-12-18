@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import User from "../../../public/user.png";
+import User from "../../../public/user.svg";
 import Quote from "../../../public/quote.png";
 import Rating from "../../../public/star.png";
 import { motion } from "framer-motion";
@@ -12,7 +12,7 @@ function Testimonial() {
     <div
       className="bg-center h-full flex items-center w-full mb-6"
       style={{
-        background: "url('/mesh.png')",
+        background: "url('/Mesh.svg')",
         backgroundRepeat: "no-repeat",
         padding: "10% 6%",
         backgroundSize: "cover",
