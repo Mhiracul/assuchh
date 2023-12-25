@@ -28,7 +28,7 @@ function WhyUs() {
             Why Choose Us
           </motion.h2>
         </div>
-        <div className="flex justify-center px-[6%] py-[10%] items-center lg:flex-row flex-col xl:gap-0 gap-10">
+        <div className="flex justify-center container mx-auto md:px-10 px-10 py-[10%] items-center lg:flex-row flex-col xl:gap-0 gap-10">
           {whyUs.map((why, index) => {
             return (
               <center key={index} className="px-6">

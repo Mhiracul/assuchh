@@ -20,7 +20,7 @@ function Testimonial() {
         backgroundPosition: "center",
       }}
     >
-      <div className="flex-col md:flex-row justify-start gap-10 items-center align-middle pb-[300px] hidden md:flex">
+      <div className="flex-col md:flex-row justify-start gap-10 items-center align-middle container mx-auto md:px-10 px-10 py-20 hidden md:flex">
         <div className="flex flex-col">
           <Image
             src={User}

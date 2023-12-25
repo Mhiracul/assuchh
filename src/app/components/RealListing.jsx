@@ -13,7 +13,7 @@ import Link from "next/link";
 const RealListing = () => {
   return (
     <div className="bg-[#DBF0F8]  h-full w-full">
-      <div className="container mx-auto w-full  py-20 md:px-32 px-10">
+      <div className="container mx-auto w-full  py-20 md:px-10 px-10">
         <div className="flex flex-col items-center gap-4">
           <h1 className="md:text-3xl text-xl font-medium ">Recent Listings</h1>
           <p className="md:text-base max-w-md text-xs font-light text-center">

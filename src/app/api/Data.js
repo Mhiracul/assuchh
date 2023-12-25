@@ -24,7 +24,7 @@ export const deals = [
     title: "Agriculture",
     content:
       "Be the first to gain access to our newest real estate deals. Stop renting and start buying now...",
-    link: "/",
+    link: "/agriculture",
   },
   {
     id: "deal-3",
@@ -32,7 +32,7 @@ export const deals = [
     title: "Trading",
     content:
       "Be the first to gain access to our newest real estate deals. Stop renting and start buying now...",
-    link: "/",
+    link: "/trading",
   },
   {
     id: "deal-4",

@@ -64,7 +64,7 @@ function Deals() {
     ],
   };
   return (
-    <div className="p-[6%]  mt-[5%] md:mt-[-10%]">
+    <div className="container mx-auto md:px-10 px-10  mt-[5%] md:mt-[-10%]">
       <h2 className="font-montserrat text-black text-[30px] font-bold">
         Latest Deals
       </h2>
@@ -83,7 +83,7 @@ function Deals() {
               <p className="text-black text-[8px]">{deal.content}</p>
               <div className="flex flex-row justify-end">
                 <Button className="bg-[#00ADEF] justify-end rounded-sm px-4 py-1 text-white text-[12px]">
-                  See all
+                  <Link href={deal.link}>See all</Link>
                 </Button>
               </div>
             </div>

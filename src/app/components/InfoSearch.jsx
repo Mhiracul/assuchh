@@ -20,10 +20,13 @@ function InfoSearch() {
         <Link href="/about" className="border-[#00000066] border-r-2 px-4">
           Real Estate
         </Link>
-        <Link href="/" className="border-[#00000066] border-r-2 px-4">
+        <Link
+          href="/agriculture"
+          className="border-[#00000066] border-r-2 px-4"
+        >
           Agriculture
         </Link>
-        <Link href="/" className="border-[#00000066] border-r-2 px-4">
+        <Link href="/trading" className="border-[#00000066] border-r-2 px-4">
           Trading
         </Link>
         <Link href="/" className="border-[#00000066] border-r-2 px-4">

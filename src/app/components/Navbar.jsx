@@ -26,7 +26,7 @@ function Navbar() {
     setDropdownOpen(false); // Close the dropdown when a link is clicked
   };
   return (
-    <div className="bg-white container mx-auto md:px-32 px-10 w-full py-2 flex flex-row justify-between align-middle items-center">
+    <div className="bg-white container mx-auto md:px-10 px-10 w-full py-2 flex flex-row justify-between align-middle items-center">
       <div className=" flex flex-row align-middle  items-center">
         <Image src={Logo} alt="logo" className="w-[50px]" />
         <p className="text-black font-medium font-Montserrat leading-3 text-[12px]">
@@ -38,11 +38,11 @@ function Navbar() {
           <BiMenuAltRight size={30} />
         </Button>
         {mobileMenuOpen && (
-          <div className="absolute top-12 right-6 mt-2 py-2 w-[300px] bg-white border rounded z-10">
+          <div className="absolute top-12 right-6 mt-2 py-2 w-[300px] bg-white  rounded z-10">
             <div
               className={`${
                 mobileMenuOpen ? "flex" : "hidden"
-              } md:hidden flex-col h-[350px] p-5 w-[300px] z-10 mt-0`}
+              } md:hidden flex-col h-[250px] p-5 w-[300px] z-10 mt-0`}
             >
               <div className="h-[50px] justify-between items-center gap-2 w-full p-3 border rounded-md md:flex"></div>
               <div className="mt-10 flex flex-col gap-6">
@@ -67,13 +67,13 @@ function Navbar() {
                     Categories
                   </span>
                   {dropdownOpen && (
-                    <div className="absolute top-full left-0 mt-2 py-2 w-[150px] bg-[#C82C2F] rounded-md z-10">
+                    <div className="absolute top-full left-0 mt-2 py-2 w-[150px] bg-[#C82C2F] rounded-md z-40">
                       <a
                         href="/category1"
                         className="block px-4 py-2 text-white font-Montserrat text-[12px]"
                         onClick={handleDropdownLinkClick}
                       >
-                        Category 1
+                        Real Estate
                       </a>
                       <a
                         href="/category2"
@@ -86,15 +86,6 @@ function Navbar() {
                     </div>
                   )}
                 </div>
-                <Link
-                  href="/"
-                  className="text-black font-Montserrat text-[12px]"
-                >
-                  Sign In
-                </Link>
-                <Button className="bg-[#C82C2F] px-5 py-3 rounded-md text-white text-[12px] font-Montserrat text-md w-[150px]">
-                  Sign Up
-                </Button>
               </div>
             </div>
           </div>
@@ -135,14 +126,14 @@ function Navbar() {
                   Real Estate
                 </a>
                 <a
-                  href="/category2"
+                  href="/agriculture"
                   className="block px-4 py-2 text-white font-Montserrat font-bold text-[10px]"
                   onClick={handleDropdownLinkClick}
                 >
                   Agriculture
                 </a>
                 <a
-                  href="/category2"
+                  href="/trading"
                   className="block px-4 py-2 text-white font-Montserrat font-bold text-[10px]"
                   onClick={handleDropdownLinkClick}
                 >

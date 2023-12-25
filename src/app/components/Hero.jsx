@@ -22,7 +22,7 @@ const Hero = () => {
           width: "100%",
         }}
       >
-        <div className="px-5 xl:px-20 lg:px-10">
+        <div className="container mx-auto md:px-10 px-10">
           <motion.h2
             variants={fadeIn("down", "tween", 0.2, 1)}
             className="font-Montserrat relative flex items-center font-bold text-primary text-[36px] md:text-[56px] md:leading-[63px] leading-[40px]"

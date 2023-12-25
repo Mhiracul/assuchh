@@ -7,7 +7,7 @@ import Process from "../../../public/process.png";
 
 function Steps() {
   return (
-    <div className="flex flex-col md:flex-row justify-between align-middle p-[6%] gap-[50px] md:gap-[150px] items-center mt-10 md:mt-0">
+    <div className="flex flex-col md:flex-row justify-between align-middle container mx-auto md:px-10 px-10 py-20 gap-[50px] md:gap-[150px] items-center mt-10 md:mt-0">
       <div>
         <Image src={Vid} alt="video" />
       </div>
