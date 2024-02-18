@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Agent from "../components/Agent";
 import Loader from "../api/Loader";
-import Success from "../components/Success";
+import OurSolution from "../components/OurSolution";
 import OurOffer from "../components/OurOffer";
 const Trading = () => {
   const [loading, setLoading] = useState(true);
@@ -38,12 +38,11 @@ const Trading = () => {
             >
               <div className="container mx-auto md:px-10 px-10">
                 <div className="flex flex-col items-center gap-3">
-                  <h2 className="font-normal text-2xl mb-4">Unleashing</h2>
-                  <h2 className="text-3xl max-w-[220px]   text-center font-semibold">
-                    THE POWER OF AGRICULTURE
+                  <h2 className="lg:text-3xl  md:text-2xl text-xl    text-center font-semibold">
+                    Connect Your Business to a <br /> World of Possibilities
                   </h2>
-                  <button className="bg-[#C82C2F] px-10 py-3  font-medium rounded-md text-white font-Montserrat text-base  max-w-[250px]">
-                    Browse Listings
+                  <button className="bg-[#C82C2F] px-6 py-2  font-medium rounded-sm text-white font-Montserrat text-base  max-w-[250px]">
+                    Contact Us
                   </button>
                 </div>
               </div>
@@ -51,7 +50,7 @@ const Trading = () => {
           </div>
 
           <OurOffer />
-          <Success />
+          <OurSolution />
           <Footer />
         </>
       )}

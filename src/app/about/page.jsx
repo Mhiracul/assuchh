@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import RealListing from "../components/RealListing";
+import EstateService from "../components/EstateService";
 import Agent from "../components/Agent";
 import Loader from "../api/Loader";
 const About = () => {
@@ -41,11 +42,13 @@ const About = () => {
             >
               <div className="container mx-auto md:px-32 px-10">
                 <div className="flex flex-col md:items-start items-center gap-3">
-                  <h2 className="font-normal text-3xl ">Find & Build</h2>
-                  <h2 className="text-3xl md:text-start text-center font-semibold">
+                  <h2 className="font-normal lg:text-3xl  md:text-2xl text-xl ">
+                    Find & Build
+                  </h2>
+                  <h2 className="lg:text-3xl  md:text-2xl text-xl md:text-start text-center font-semibold">
                     YOUR DREAM HOME
                   </h2>
-                  <button className="bg-[#C82C2F] px-10 py-3  font-medium rounded-md text-white font-Montserrat text-base  max-w-[250px]">
+                  <button className="bg-[#C82C2F] px-6 py-2  font-medium rounded-sm text-white font-Montserrat text-base  max-w-[250px]">
                     Browse Listings
                   </button>
                 </div>
@@ -53,6 +56,7 @@ const About = () => {
             </div>
           </div>
           <RealListing />
+          <EstateService />
           <Agent />
           <Footer />
         </>
