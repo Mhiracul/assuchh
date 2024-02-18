@@ -92,7 +92,7 @@ function Testimonial() {
               for providing me with the support I need.
             </p>
             <h4 className="text-black font-Montserrat font-bold text-[15px] mt-10">
-              David Chukwudi
+              Kingsley Onuoha
             </h4>
             <p className="text-black font-medium text-[11px]">
               CEO and Co Founder

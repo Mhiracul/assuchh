@@ -16,7 +16,7 @@ export const deals = [
     title: "Real Estate",
     content:
       "Be the first to gain access to our newest real estate deals. Stop renting and start buying now...",
-    link: "/about",
+    link: "/real-estate",
   },
   {
     id: "deal-2",
@@ -40,23 +40,16 @@ export const deals = [
     title: "Importation",
     content:
       "Be the first to gain access to our newest real estate deals. Stop renting and start buying now...",
-    link: "/",
+    link: "/trading",
   },
-  {
-    id: "deal-5",
-    img: exportation,
-    title: "Export",
-    content:
-      "Be the first to gain access to our newest real estate deals. Stop renting and start buying now...",
-    link: "/",
-  },
+
   {
     id: "deal-6",
     img: business,
     title: "Business",
     content:
       "Be the first to gain access to our newest real estate deals. Stop renting and start buying now...",
-    link: "/",
+    link: "/business",
   },
 ];
 

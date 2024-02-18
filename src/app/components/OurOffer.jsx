@@ -4,22 +4,27 @@ import Grass from "../../../public/grass.svg";
 import Sesame from "../../../public/sesame.svg";
 import Chicken from "../../../public/chicken.svg";
 import Palmkernel from "../../../public/palmkernel.svg";
+import Line from "../../../public/line.svg"; // Import line image
 
 const OurOffer = () => {
   return (
-    <div className="container mx-auto md:px-10 px-10 py-20">
+    <div className="container mx-auto md:px-10 px-10 py-28">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
-        <div className="relative ">
-          <Image
-            src="/line.svg"
-            alt=""
-            width={100}
-            height={100}
-            className="absolute top-0 left-0 w-full h-full"
-          />
-          <div className="  grid grid-cols-2 gap-8 ">
+        <div className="relative flex items-center">
+          {/* Line image positioned absolutely */}
+          <div className="absolute -inset-y-16 left-0 z-10">
+            <Image
+              src={Line}
+              alt=""
+              layout="responsive"
+              width={1000} // Adjust the width to match the length of the grid
+              height={7} // Adjust the height to match the thickness of the line
+              className="w-full"
+            />
+          </div>
+          <div className="  grid grid-cols-2 gap-8 z-[99999]">
             <div>
-              <Image src={Grass} alt="List" className="w-full " />
+              <Image src={Grass} alt="List" className="w-full z-[99999]" />
             </div>
             <div>
               <Image src={Sesame} alt="List" className="w-full" />

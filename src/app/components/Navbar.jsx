@@ -1,10 +1,8 @@
 "use client";
+import Image from "next/image";
 import React, { useState } from "react";
 import Logo from "../../../public/logo.png";
-import Image from "next/image";
 import Link from "next/link";
-import { Button } from "react-scroll";
-import { FiSearch, FiX } from "react-icons/fi";
 import { BiMenuAltRight } from "react-icons/bi";
 import { GoDotFill } from "react-icons/go";
 
@@ -19,33 +17,29 @@ function Navbar() {
 
   const handleDropdownToggle = () => {
     setDropdownOpen(!dropdownOpen);
-    setMobileMenuOpen(false); // Close the mobile menu when opening the dropdown
   };
 
   const handleDropdownLinkClick = () => {
     setDropdownOpen(false); // Close the dropdown when a link is clicked
   };
+
   return (
-    <div className=" bg-white shadow-lg shadow-[#8d8c8c] z-[99999]">
-      <div className="container  mx-auto md:px-10 px-10 w-full py-2 flex flex-row justify-between align-middle items-center">
-        <div className=" flex flex-row align-middle  items-center">
+    <div className="bg-white shadow-lg z-[99999]">
+      <div className="container mx-auto md:px-10 px-10 py-2 flex flex-row justify-between align-middle items-center">
+        <div className="flex flex-row align-middle items-center">
           <Image src={Logo} alt="logo" className="w-[50px]" />
           <p className="text-black font-medium font-Montserrat leading-3 text-[12px]">
             Assuch <br /> Global
           </p>
         </div>
         <div className="block md:hidden">
-          <Button onClick={handleMenuToggle}>
+          <button onClick={handleMenuToggle}>
             <BiMenuAltRight size={30} />
-          </Button>
+          </button>
           {mobileMenuOpen && (
-            <div className="absolute top-12 right-6 mt-2 py-2 w-[300px] bg-white  rounded z-10">
-              <div
-                className={`${
-                  mobileMenuOpen ? "flex" : "hidden"
-                } md:hidden flex-col h-[250px] p-5 w-[300px] z-10 mt-0`}
-              >
-                <div className="h-[50px] justify-between items-center gap-2 w-full p-3 border rounded-md md:flex"></div>
+            <div className="absolute top-12 right-6 mt-2 py-2 w-[300px] bg-white rounded z-10">
+              <div className="flex flex-col h-[250px] p-5 w-[300px] z-10 mt-0">
+                <div className="h-[50px] justify-between items-center gap-2 w-full p-3 border rounded-md"></div>
                 <div className="mt-10 flex flex-col gap-6">
                   <Link
                     href="/"
@@ -59,7 +53,6 @@ function Navbar() {
                   >
                     About Us
                   </Link>
-
                   <div className="relative inline-block">
                     <span
                       className="text-black font-Montserrat text-[12px] cursor-pointer"
@@ -68,20 +61,35 @@ function Navbar() {
                       Categories
                     </span>
                     {dropdownOpen && (
-                      <div className="absolute top-full left-0 mt-2 py-2 w-[150px] bg-[#C82C2F] rounded-md z-40">
+                      <div className="flex flex-col gap-1 mt-2 bg-[#C82C2F]">
                         <a
-                          href="/category1"
-                          className="block px-4 py-2 text-white font-Montserrat text-[12px]"
+                          href="/real-estate"
+                          className="block px-4 py-2 text-[12px] text-white font-Montserrat bg-[#C82C2F] rounded-md"
                           onClick={handleDropdownLinkClick}
                         >
                           Real Estate
                         </a>
                         <a
-                          href="/category2"
-                          className="block px-4 py-2 text-white font-Montserrat text-[12px]"
+                          href="/agriculture"
+                          className="block px-4 py-2 text-[12px] text-white font-Montserrat bg-[#C82C2F] rounded-md"
                           onClick={handleDropdownLinkClick}
                         >
-                          Category 2
+                          Agriculture
+                        </a>
+                        <a
+                          href="/trading"
+                          className="block px-4 py-2 text-[12px] text-white font-Montserrat bg-[#C82C2F] rounded-md"
+                          onClick={handleDropdownLinkClick}
+                        >
+                          Trading
+                        </a>
+
+                        <a
+                          href="/business"
+                          className="block px-4 py-2 text-[12px] text-white font-Montserrat bg-[#C82C2F] rounded-md"
+                          onClick={handleDropdownLinkClick}
+                        >
+                          Business
                         </a>
                       </div>
                     )}
@@ -119,8 +127,8 @@ function Navbar() {
                 </div>
                 <div className="flex flex-col">
                   <a
-                    href="/about"
-                    className=" px-4 py-2 text-white inline-flex items-center gap-1 font-Montserrat font-bold text-[10px]"
+                    href="/real-estate"
+                    className="px-4 py-2 text-white inline-flex items-center gap-1 font-Montserrat font-bold text-[10px]"
                     onClick={handleDropdownLinkClick}
                   >
                     Real Estate
@@ -139,7 +147,6 @@ function Navbar() {
                   >
                     Trading
                   </a>
-
                   <a
                     href="/business"
                     className="block px-4 py-2 text-white font-Montserrat font-bold text-[10px]"

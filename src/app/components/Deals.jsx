@@ -35,7 +35,7 @@ function Deals() {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 5.2, // Number of deals to show at once
+    slidesToShow: 4.2, // Number of deals to show at once
     slidesToScroll: 1,
     nextArrow: <CustomNextArrow />, // Add custom next arrow component
     prevArrow: <CustomPrevArrow />,
@@ -64,7 +64,7 @@ function Deals() {
     ],
   };
   return (
-    <div className="container mx-auto md:px-10 px-10  mt-[5%] md:mt-[-10%]">
+    <div className="container mx-auto md:px-10 px-10 py-20  ">
       <h2 className="font-montserrat text-black text-[30px] font-bold">
         Latest Deals
       </h2>

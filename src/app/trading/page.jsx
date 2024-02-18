@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import Agent from "../components/Agent";
 import Loader from "../api/Loader";
 import OurSolution from "../components/OurSolution";
-import OurOffer from "../components/OurOffer";
+import ImportExport from "../components/ImportExport";
 const Trading = () => {
   const [loading, setLoading] = useState(true);
 
@@ -49,7 +49,7 @@ const Trading = () => {
             </div>
           </div>
 
-          <OurOffer />
+          <ImportExport />
           <OurSolution />
           <Footer />
         </>

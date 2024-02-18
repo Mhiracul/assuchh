@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Deals from "./components/Deals";
+import AboutUs from "./components/AboutUs";
 import WhyUs from "./components/WhyUs";
 import Testimonial from "./components/Testimonial";
 import InfoSearch from "./components/InfoSearch";
@@ -33,6 +34,7 @@ export default function Home() {
           <WhyUs />
           <Steps />
           <Testimonial />
+          <AboutUs />
           <Footer />
         </>
       )}
