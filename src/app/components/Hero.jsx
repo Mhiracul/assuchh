@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { staggerContainer, fadeIn, slideIn } from "../api/Motion";
 import { Button } from "react-scroll";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -56,9 +57,11 @@ const Hero = () => {
             <br className="sm:flex hidden" />
             products and services to suit your needs.
           </motion.h2>
-          <Button className="bg-[#C82C2F] px-10 py-3 rounded-md text-white font-Montserrat text-lg mt-10">
-            Contact Us
-          </Button>
+          <Link href="/Contact">
+            <Button className="bg-[#C82C2F] px-10 py-3 rounded-md text-white font-Montserrat text-lg mt-10">
+              Contact Us
+            </Button>
+          </Link>
         </div>
       </div>
     </motion.div>

@@ -33,7 +33,7 @@ const RealListing = () => {
               <h4 className="text-[10px] font-medium">Lekki Phase 1, Lagos</h4>
               <h5 className="text-[10px] font-bold">N50,000,000</h5>
               <p className="text-[10px] font-medium">648sqm /3 Bed/3 Bath</p>
-              <button className="bg-[#C82C2F] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
+              <button className="bg-[#C82C2F] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-xs  max-w-[180px]">
                 <Link href="https://wa.me/+2348035491849">Contact Agent</Link>
               </button>
             </div>
@@ -49,7 +49,7 @@ const RealListing = () => {
               <h4 className="text-[10px] font-medium">Lekki Phase 1, Lagos</h4>
               <h5 className="text-[10px] font-bold">N50,000,000</h5>
               <p className="text-[10px] font-medium">648sqm /3 Bed/3 Bath</p>
-              <button className="bg-[#C82C2F] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
+              <button className="bg-[#C82C2F] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-xs  max-w-[180px]">
                 <Link href="https://wa.me/+2348035491849">Contact Agent</Link>
               </button>
             </div>
@@ -65,7 +65,7 @@ const RealListing = () => {
               <h4 className="text-[10px] font-medium">Lekki Phase 1, Lagos</h4>
               <h5 className="text-[10px] font-bold">N50,000,000</h5>
               <p className="text-[10px] font-medium">648sqm /3 Bed/3 Bath</p>
-              <button className="bg-[#C82C2F] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
+              <button className="bg-[#C82C2F] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-xs  max-w-[180px]">
                 <Link href="https://wa.me/+2348035491849">Contact Agent</Link>
               </button>
             </div>
@@ -81,14 +81,14 @@ const RealListing = () => {
               <h4 className="text-[10px] font-medium">Lekki Phase 1, Lagos</h4>
               <h5 className="text-[10px] font-bold">N50,000,000</h5>
               <p className="text-[10px] font-medium">648sqm /3 Bed/3 Bath</p>
-              <button className="bg-[#C82C2F] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-[7px]  max-w-[180px]">
+              <button className="bg-[#C82C2F] hover:bg-[#ee5457] px-6 py-2  font-bold rounded-full text-white font-Montserrat text-xs  max-w-[180px]">
                 <Link href="https://wa.me/+2348035491849">Contact Agent</Link>
               </button>
             </div>
           </div>
         </div>
         <div className="flex  justify-center w-full mt-4 py-6">
-          <button className="bg-[#C82C2F] hover:bg-[#ee5457] px-6 py-2 font-bold rounded-sm text-white font-Montserrat text-[7px] max-w-[180px] ">
+          <button className="bg-[#C82C2F] hover:bg-[#ee5457] px-6 py-2 font-bold rounded-sm text-white font-Montserrat text-xs max-w-[180px] ">
             View All Listings
           </button>
         </div>

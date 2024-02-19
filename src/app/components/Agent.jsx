@@ -32,7 +32,7 @@ const Agent = () => {
               <option>Browse</option>
             </select>
           </div>
-          <button className="bg-[#C82C2F] hover:bg-[#ee5457] px-6 py-2 font-bold rounded-sm text-white font-Montserrat text-[7px] max-w-[180px] ">
+          <button className="bg-[#C82C2F] hover:bg-[#ee5457] px-6 py-2 font-bold rounded-sm text-white font-Montserrat text-xs max-w-[180px] ">
             Contact Agent
           </button>
         </div>

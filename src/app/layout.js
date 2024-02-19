@@ -1,5 +1,7 @@
+import Image from "next/image";
 import "./globals.css";
 import { Inter, Montserrat } from "next/font/google";
+import { FaWhatsappSquare } from "react-icons/fa";
 
 const inter = Inter({ subsets: ["latin"] });
 const montserrat = Montserrat({
@@ -16,7 +18,21 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={(inter.className, montserrat.variable)}>{children}</body>
+      <body className={(inter.className, montserrat.variable)}>
+        {children}
+        <div
+          style={{
+            position: "fixed",
+            bottom: "20px",
+            right: "20px",
+            zIndex: "99999",
+          }}
+        >
+          <a href="https://wa.me/+2348035491849">
+            <FaWhatsappSquare color="#00ADEF" size={30} />
+          </a>
+        </div>
+      </body>
     </html>
   );
 }

@@ -5,6 +5,7 @@ import React from "react";
 import { Button } from "react-scroll";
 import Logo from "../../../public/logo.png";
 import { FiFacebook, FiInstagram, FiTwitter } from "react-icons/fi";
+import { FaWhatsappSquare } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -30,20 +31,15 @@ function Footer() {
             Useful links
           </h3>
           <div className="mt-4 flex flex-col gap-3 md:mt-10">
-            <Link className="text-gray-500 font-Montserrat text-sm" href="/">
+            <Link
+              className="text-gray-500 font-Montserrat text-sm"
+              href="/real-estate"
+            >
               Find Deals
             </Link>
-            <Link className="text-gray-500 font-Montserrat text-sm" href="/">
-              Find Property
-            </Link>
+
             <Link className="text-gray-500 font-Montserrat text-sm" href="/">
               Sell Property
-            </Link>
-            <Link className="text-gray-500 font-Montserrat text-sm" href="/">
-              Get Agent
-            </Link>
-            <Link className="text-gray-500 font-Montserrat text-sm" href="/">
-              Listing Category
             </Link>
           </div>
         </div>
@@ -52,13 +48,19 @@ function Footer() {
             About
           </h3>
           <div className="mt-4 flex flex-col gap-3 md:mt-10">
-            <Link className="text-gray-500 font-Montserrat text-sm" href="/">
+            <Link
+              className="text-gray-500 font-Montserrat text-sm"
+              href="/about"
+            >
               About Us
             </Link>
             <Link className="text-gray-500 font-Montserrat text-sm" href="/">
               How It Works
             </Link>
-            <Link className="text-gray-500 font-Montserrat text-sm" href="/">
+            <Link
+              className="text-gray-500 font-Montserrat text-sm"
+              href="/Contact"
+            >
               Contact Us
             </Link>
           </div>
@@ -74,19 +76,13 @@ function Footer() {
             <Link className="text-gray-500 font-Montserrat text-sm" href="/">
               Terms and Conditions
             </Link>
-            <Link className="text-gray-500 font-Montserrat text-sm" href="/">
-              Copyright Policy
-            </Link>
-            <Link className="text-gray-500 font-Montserrat text-sm" href="/">
-              Security
-            </Link>
           </div>
         </div>
         <div className="flex flex-col mt-6 md:mt-0">
           <Image src={Logo} alt="logo" width={50} height={50} />
           <div className="mt-5 flex flex-col gap-3">
             <Link className="text-gray-500 font-Montserrat text-sm" href="/">
-              40 Ezekiel Ovah Ogidan <br />
+              40 Ezekiel Uvoh Ogidan <br />
               Lekki Epe Expressway, Lagos, Nigeria <br />
               Email: info@assuchglobal.com <br />
               Phone: +234803 549 1849 <br />
@@ -105,13 +101,13 @@ function Footer() {
               </Link>
             </div>
             <div className="bg-[#00ADEF] p-2 w-[40px]">
-              <Link href="/">
+              <Link href="https://instagram.com/assuchglobal">
                 <FiInstagram color="#fff" />
               </Link>
             </div>
             <div className="bg-[#00ADEF] p-2 w-[40px]">
-              <Link href="/">
-                <FiTwitter color="#fff" />
+              <Link href="https://wa.me/+2348035491849">
+                <FaWhatsappSquare color="#fff" />
               </Link>
             </div>
           </div>

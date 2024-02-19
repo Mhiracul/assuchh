@@ -11,3 +11,9 @@ body {
   list-style: none;
   overflow-x: hidden;
 }
+input::placeholder {
+  font-size: 10px;
+}
+textarea::placeholder {
+  font-size: 10px;
+}

@@ -61,7 +61,7 @@ function Navbar() {
                       Categories
                     </span>
                     {dropdownOpen && (
-                      <div className="flex flex-col gap-1 mt-2 bg-[#C82C2F]">
+                      <div className="flex flex-col gap-1 mt-2 z-[99999] bg-[#C82C2F]">
                         <a
                           href="/real-estate"
                           className="block px-4 py-2 text-[12px] text-white font-Montserrat bg-[#C82C2F] rounded-md"

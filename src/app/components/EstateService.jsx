@@ -32,7 +32,7 @@ const EstateService = () => {
                   insights and negotiation skills to secure the ideal property
                   for your ventures, backed by the reliability of Assuch Global.
                 </p>
-                <button className="bg-[#C82C2F] mt-16 hover:bg-[#ee5457] px-6 py-2 font-bold rounded-sm text-white font-Montserrat text-[7px] max-w-[180px] ">
+                <button className="bg-[#C82C2F] mt-16 hover:bg-[#ee5457] px-6 py-2 font-bold rounded-sm text-white font-Montserrat text-xs max-w-[180px] ">
                   Contact Agent
                 </button>
               </div>
@@ -62,7 +62,7 @@ const EstateService = () => {
                   insights and negotiation skills to secure the ideal property
                   for your ventures, backed by the reliability of Assuch Global.
                 </p>
-                <button className="bg-[#C82C2F] mt-16 hover:bg-[#ee5457] px-6 py-2 font-bold rounded-sm text-white font-Montserrat text-[7px] max-w-[180px] ">
+                <button className="bg-[#C82C2F] mt-16 hover:bg-[#ee5457] px-6 py-2 font-bold rounded-sm text-white font-Montserrat text-xs max-w-[180px] ">
                   Contact Agent
                 </button>
               </div>
@@ -92,7 +92,7 @@ const EstateService = () => {
                   insights and negotiation skills to secure the ideal property
                   for your ventures, backed by the reliability of Assuch Global.
                 </p>
-                <button className="bg-[#C82C2F] mt-16 hover:bg-[#ee5457] px-6 py-2 font-bold rounded-sm text-white font-Montserrat text-[7px] max-w-[180px] ">
+                <button className="bg-[#C82C2F] mt-16 hover:bg-[#ee5457] px-6 py-2 font-bold rounded-sm text-white font-Montserrat text-xs max-w-[180px] ">
                   Contact Agent
                 </button>
               </div>
@@ -122,7 +122,7 @@ const EstateService = () => {
                   insights and negotiation skills to secure the ideal property
                   for your ventures, backed by the reliability of Assuch Global.
                 </p>
-                <button className="bg-[#C82C2F] mt-16 hover:bg-[#ee5457] px-6 py-2 font-bold rounded-sm text-white font-Montserrat text-[7px] max-w-[180px] ">
+                <button className="bg-[#C82C2F] mt-16 hover:bg-[#ee5457] px-6 py-2 font-bold rounded-sm text-white font-Montserrat text-xs max-w-[180px] ">
                   Contact Agent
                 </button>
               </div>

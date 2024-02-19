@@ -1,7 +1,13 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const BusinessService = () => {
+  const handleWhatsAppMessage = (productName) => {
+    const message = `Hello, My name is [Your Name]. I would love to make an enquiry on the ${productName}.`;
+    const encodedMessage = encodeURIComponent(message);
+    return `https://wa.me/+2348035491849?text=${encodedMessage}`;
+  };
   return (
     <div className="h-full w-full">
       <div className="  py-20">
@@ -39,9 +45,11 @@ const BusinessService = () => {
                 Our comprehensive courier and logistics services ensure timely{" "}
                 and secure delivery of your goods, anywhere in the world.
               </p>
-              <button className="bg-[#C82C2F] mt-4 hover:bg-[#ee5457] px-6 py-2 font-bold rounded-sm text-white font-Montserrat text-[7px] max-w-[180px] ">
-                Contact Agent
-              </button>
+              <Link href={handleWhatsAppMessage("Courier & Logistics Service")}>
+                <button className="bg-[#C82C2F] hover:bg-[#ee5457] px-6 py-2  font-bold  text-white font-Montserrat text-xs  max-w-[180px]">
+                  Contact Agent
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -80,9 +88,11 @@ const BusinessService = () => {
                   prompt transportation of your goods, meeting your business
                   needs with reliability and professionalism.
                 </p>
-                <button className="bg-[#C82C2F] mt-4 hover:bg-[#ee5457] px-6 py-2 font-bold rounded-sm text-white font-Montserrat text-[7px] max-w-[180px] ">
-                  Contact Agent
-                </button>
+                <Link href={handleWhatsAppMessage("Haulage Service")}>
+                  <button className="bg-[#C82C2F] hover:bg-[#ee5457] px-6 py-2  font-bold  text-white font-Montserrat text-xs  max-w-[180px]">
+                    Contact Agent
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -122,9 +132,11 @@ const BusinessService = () => {
                   services ensure a memorable and seamless experience for you
                   and your guests.
                 </p>
-                <button className="bg-[#C82C2F] mt-4 hover:bg-[#ee5457] px-6 py-2 font-bold rounded-sm text-white font-Montserrat text-[7px] max-w-[180px] ">
-                  Contact Agent
-                </button>
+                <Link href={handleWhatsAppMessage("Event Management")}>
+                  <button className="bg-[#C82C2F] hover:bg-[#ee5457] px-6 py-2  font-bold  text-white font-Montserrat text-xs  max-w-[180px]">
+                    Contact Agent
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

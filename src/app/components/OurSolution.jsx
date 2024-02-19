@@ -1,7 +1,13 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const OurSolution = () => {
+  const handleWhatsAppMessage = (productName) => {
+    const message = `Hello, My name is [Your Name]. I would love to make an enquiry on the ${productName}.`;
+    const encodedMessage = encodeURIComponent(message);
+    return `https://wa.me/+2348035491849?text=${encodedMessage}`;
+  };
   return (
     <div className="bg-[#DBF0F8] font-Montserrat h-full w-full">
       <div
@@ -36,9 +42,11 @@ const OurSolution = () => {
                   business needs.
                 </p>
 
-                <button className="bg-[#C82C2F] mt-4 hover:bg-[#ee5457] px-6 py-2 font-bold rounded-sm text-white font-Montserrat text-[7px] max-w-[180px] ">
-                  Contact Agent
-                </button>
+                <Link href={handleWhatsAppMessage("Importation Services")}>
+                  <button className="bg-[#C82C2F] hover:bg-[#ee5457] px-6 py-2  font-bold  text-white font-Montserrat text-xs  max-w-[180px]">
+                    Contact Agent
+                  </button>
+                </Link>
               </div>
             </div>
 
@@ -53,9 +61,11 @@ const OurSolution = () => {
                   business needs.
                 </p>
 
-                <button className="bg-[#C82C2F] mt-4 hover:bg-[#ee5457] px-6 py-2 font-bold rounded-sm text-white font-Montserrat text-[7px] max-w-[180px] ">
-                  Contact Agent
-                </button>
+                <Link href={handleWhatsAppMessage("Exportation Services")}>
+                  <button className="bg-[#C82C2F] hover:bg-[#ee5457] px-6 py-2  font-bold  text-white font-Montserrat text-xs  max-w-[180px]">
+                    Contact Agent
+                  </button>
+                </Link>
               </div>
               <Image
                 src="/Export2.svg"

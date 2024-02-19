@@ -15,7 +15,7 @@ export const deals = [
     img: realestate,
     title: "Real Estate",
     content:
-      "Be the first to gain access to our newest real estate deals. Stop renting and start buying now...",
+      "Unlock exclusive real estate opportunities tailored to your needs. Explore our latest deals and find your dream property today.",
     link: "/real-estate",
   },
   {
@@ -23,7 +23,7 @@ export const deals = [
     img: agric,
     title: "Agriculture",
     content:
-      "Be the first to gain access to our newest real estate deals. Stop renting and start buying now...",
+      "Discover cutting-edge agricultural solutions designed to drive your farm's success. Explore our latest deals and revolutionize your farming practices.",
     link: "/agriculture",
   },
   {
@@ -31,7 +31,7 @@ export const deals = [
     img: trading,
     title: "Trading",
     content:
-      "Be the first to gain access to our newest real estate deals. Stop renting and start buying now...",
+      "Access global trading opportunities and stay ahead of market trends. Explore our latest deals and elevate your trading strategies.",
     link: "/trading",
   },
   {
@@ -39,7 +39,7 @@ export const deals = [
     img: importation,
     title: "Importation",
     content:
-      "Be the first to gain access to our newest real estate deals. Stop renting and start buying now...",
+      "Optimize your importation processes and streamline your supply chain. Explore our latest deals and enhance your importation capabilities.",
     link: "/trading",
   },
 
@@ -48,7 +48,7 @@ export const deals = [
     img: business,
     title: "Business",
     content:
-      "Be the first to gain access to our newest real estate deals. Stop renting and start buying now...",
+      "Empower your business with innovative solutions and strategic insights. Explore our latest deals and take your business to new heights.",
     link: "/business",
   },
 ];

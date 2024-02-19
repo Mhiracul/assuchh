@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import User from "../../../public/user.svg";
+import User from "../../../public/testimonial2.svg";
 import Quote from "../../../public/quote.png";
 import Rating from "../../../public/star.png";
 import { motion } from "framer-motion";
@@ -25,9 +25,10 @@ function Testimonial() {
           <Image
             src={User}
             alt="testimonials"
-            className="h-[774px] object-contain"
+            className="h-[774px] shadow-lg shadow-[#ccc] object-contain"
             variants={slideIn("left", "tween", 0.2, 1)}
           />
+
           <div className="bg-white shadow-xl p-20 left-20 w-[100%] mt-[-200px] ml-[350px]">
             <Image
               src={Quote}
@@ -42,7 +43,7 @@ function Testimonial() {
                 for providing me with the support I need.
               </p>
               <h4 className="text-black font-Montserrat font-bold text-[15px] mt-10">
-                David Chukwudi
+                Kingsley Onuoha
               </h4>
               <p className="text-black font-medium text-[11px]">
                 CEO and Co Founder
@@ -60,7 +61,7 @@ function Testimonial() {
             Testimonials
           </h3>
           <p className="text-black text-[11px] font-Montserrat leading-5">
-            Over Ten thousand happy clients! Are you the next one?
+            Happy clients! Are you the next one?
           </p>
         </div>
       </div>
@@ -70,7 +71,7 @@ function Testimonial() {
             Testimonials
           </h3>
           <p className="text-black text-[11px] font-Montserrat leading-5">
-            Over Ten thousand happy clients! Are you the next one?
+            Happy clients! Are you the next one?
           </p>
         </div>
         <Image

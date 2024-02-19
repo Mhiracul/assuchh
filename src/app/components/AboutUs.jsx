@@ -4,7 +4,7 @@ import React from "react";
 const AboutUs = () => {
   return (
     <div className="w-full h-full">
-      <div className="container mx-auto py-20">
+      <div className="container mx-auto py-20 px-10">
         <div className="flex flex-col gap-3 items-center">
           <h1 className="text-black lg:text-3xl md:text-xl text-lg font-medium">
             About Us
@@ -19,7 +19,7 @@ const AboutUs = () => {
           </p>
           <Link href="/about">
             {" "}
-            <button className="bg-[#C82C2F] mt-16 hover:bg-[#ee5457] px-6 py-2 font-bold rounded-sm text-white font-Montserrat text-[7px] max-w-[180px] ">
+            <button className="bg-[#C82C2F] mt-16 hover:bg-[#ee5457] px-6 py-2 font-bold rounded-sm text-white font-Montserrat text-xs max-w-[180px] ">
               Read More
             </button>
           </Link>
