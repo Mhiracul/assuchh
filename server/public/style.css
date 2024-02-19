@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+strong {
+  color: #000;
+}
+div {
+  background: white;
+  width: 100%;
+  padding: 20px 20px;
+}

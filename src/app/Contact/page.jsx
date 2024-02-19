@@ -7,6 +7,7 @@ const Page = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
+    subject: "",
     message: "",
   });
 
@@ -21,7 +22,7 @@ const Page = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const apiUrl = "THE_ENDPOINT";
+    const apiUrl = "http://localhost:3001/submit-form";
     try {
       const response = await fetch(apiUrl, {
         method: "POST",
