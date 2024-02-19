@@ -54,13 +54,16 @@ const EstateService = () => {
                   <div className="w-20 h-0.5 bg-[#C82C2F] mt-1"></div>
                 </h1>
                 <p className="font-light md:text-start text-center lg:text-sm md:text-sm text-sm mt-4">
-                  For business ventures or long-term commitments, Assuch Global
-                  offers expert leasing services for a variety of properties,
-                  including lands, office spaces, halls, and other structures.
-                  Our leasing options are tailored to meet the unique needs of
-                  businesses and individuals alike. Leverage our industry
-                  insights and negotiation skills to secure the ideal property
-                  for your ventures, backed by the reliability of Assuch Global.
+                  <p className="font-light md:text-start text-center lg:text-sm md:text-sm text-sm mt-4">
+                    For business ventures or long-term commitments, Assuch
+                    Global offers expert selling services for a variety of
+                    properties, including lands, office spaces, halls, and other
+                    structures. Our selling options are tailored to meet the
+                    unique needs of businesses and individuals alike. Leverage
+                    our industry insights and negotiation skills to find the
+                    ideal property for your ventures, backed by the reliability
+                    of Assuch Global.
+                  </p>
                 </p>
                 <button className="bg-[#C82C2F] mt-16 hover:bg-[#ee5457] px-6 py-2 font-bold rounded-sm text-white font-Montserrat text-xs max-w-[180px] ">
                   Contact Agent
@@ -85,11 +88,11 @@ const EstateService = () => {
                 </h1>
                 <p className="font-light md:text-start text-center lg:text-sm md:text-sm text-sm mt-4">
                   For business ventures or long-term commitments, Assuch Global
-                  offers expert leasing services for a variety of properties,
+                  offers expert buying services for a variety of properties,
                   including lands, office spaces, halls, and other structures.
-                  Our leasing options are tailored to meet the unique needs of
+                  Our buying options are tailored to meet the unique needs of
                   businesses and individuals alike. Leverage our industry
-                  insights and negotiation skills to secure the ideal property
+                  insights and negotiation skills to purchase the ideal property
                   for your ventures, backed by the reliability of Assuch Global.
                 </p>
                 <button className="bg-[#C82C2F] mt-16 hover:bg-[#ee5457] px-6 py-2 font-bold rounded-sm text-white font-Montserrat text-xs max-w-[180px] ">
@@ -115,9 +118,9 @@ const EstateService = () => {
                 </h1>
                 <p className="font-light md:text-start text-center lg:text-sm md:text-sm text-sm mt-4">
                   For business ventures or long-term commitments, Assuch Global
-                  offers expert leasing services for a variety of properties,
+                  offers expert renting services for a variety of properties,
                   including lands, office spaces, halls, and other structures.
-                  Our leasing options are tailored to meet the unique needs of
+                  Our renting options are tailored to meet the unique needs of
                   businesses and individuals alike. Leverage our industry
                   insights and negotiation skills to secure the ideal property
                   for your ventures, backed by the reliability of Assuch Global.

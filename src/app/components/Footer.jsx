@@ -70,7 +70,10 @@ function Footer() {
             Terms
           </h3>
           <div className="mt-4 flex flex-col gap-3 md:mt-10">
-            <Link className="text-gray-500 font-Montserrat text-sm" href="/">
+            <Link
+              className="text-gray-500 font-Montserrat text-sm"
+              href="/privacy-policy"
+            >
               Privacy Policy
             </Link>
             <Link className="text-gray-500 font-Montserrat text-sm" href="/">
