@@ -21,7 +21,6 @@ const Page = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // You can add the backend API endpoint to send data here
     const apiUrl = "THE_ENDPOINT";
     try {
       const response = await fetch(apiUrl, {
@@ -102,6 +101,18 @@ const Page = () => {
                       placeholder="Your Email*"
                     />
                   </div>
+                </div>
+
+                <div className="mb-4 w-full">
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    value={formData.subject}
+                    onChange={handleInputChange}
+                    className="mt-1 p-2 w-full   border bg-transparent border-[#ebebeb] focus:ring-2 outline-none focus:ring-blue-500 focus:border-transparent "
+                    placeholder="Subject*"
+                  />
                 </div>
 
                 <div className="mb-4 w-full">

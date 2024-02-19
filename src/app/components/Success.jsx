@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Fruit1 from "../../../public/charcoal1.svg";
+import Fruit1 from "../../../public/charcoal6.svg";
 import Fruit2 from "../../../public/cocoa.svg";
 import Fruit3 from "../../../public/fruit3.svg";
 import Fruit4 from "../../../public/groundnut.svg";

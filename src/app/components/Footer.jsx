@@ -96,11 +96,6 @@ function Footer() {
           <div className="bg-[#00000029] border border-t-[1px] w-[95%] mx-auto my-10" />
           <div className="gap-10 flex flex-row justify-center pb-5">
             <div className="bg-[#00ADEF] p-2 w-[40px]">
-              <Link href="/">
-                <FiFacebook color="#fff" />
-              </Link>
-            </div>
-            <div className="bg-[#00ADEF] p-2 w-[40px]">
               <Link href="https://instagram.com/assuchglobal">
                 <FiInstagram color="#fff" />
               </Link>
